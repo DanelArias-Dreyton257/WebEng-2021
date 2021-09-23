@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+<title>DAME TUS DATOS</title>
+</head>
+<body>
+  <h1>Formulario</h1>
+  <fieldset>
+    <legend>Datos del usuario</legend>
+
+    <label for="inputNombre">Nombre:</label>
+    <input id="inputNombre" type="text" name="" value="">
+
+    <p>¿Eres socio?</p>
+
+    <input id="inputSocio1" type="radio" name="socio" value="">
+    <label for="inputSocio1">Si, soy socio:</label>
+
+    <input id="inputSocio2" type="radio" name="socio" value="">
+    <label for="inputSocio2">No soy socio:</label>
+
+    <br>
+
+    <label for="inputEmail">E-mail:</label>
+    <input id="inputEmail" type="text" name="" value="">
+
+    <br>
+
+    <label for="inputContrasena">Contraseña:</label>
+    <input id="inputContrasena" type="text" name="" value="">
+
+  </fieldset>
+  <fieldset>
+    <legend>Datos de la reserva</legend>
+
+    <label for="inputEdad">Edad:</label>
+    <select id="inputEdad" class="" name="edades">
+      <option selected value="">Menor de 18</option>
+      <option value="">18 - 30</option>
+      <option value="">30 - 65</option>
+      <option value="">Mayor de 65</option>
+    </select>
+
+    Selecciona la <label for="inputFecha">fecha</label> y <label for="inputHora">hora</label> de reserva:
+
+    <br>
+
+    <input id="inputFecha" type="date" name="" value="">
+    <input id="inputHora" type="time" name="" value="">
+
+    <br>
+
+    <textarea name="name" rows="4" cols="20">Comentarios</textarea>
+
+  </fieldset>
+  <input id="inputCondiciones" type="checkbox" name="" value="">
+  <label for="inputCondiciones">Acepto las condiciones</label>
+
+  <br>
+  
+  <input type="submit" name="" value="Enviar">
+</body>
