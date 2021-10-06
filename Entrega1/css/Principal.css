@@ -6,14 +6,20 @@ nav{
 }
 article{
   background-color: green;
-  padding: 1%;
+  padding: 0.5%;
+  float: left;
+  margin: 0 1.5%;
 }
 section{
   background-color: pink;
+  margin: 0.5%;
 }
 aside{
   background-color: grey;
+  float: right;
+  margin: 0 1.5%;
 }
 footer{
   background-color: yellow;
+  clear: both;
 }
