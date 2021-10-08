@@ -6,6 +6,7 @@ header{
   padding: 1%;
   font-weight: bold;
   font-size: 3em;
+  font-family: georgia, "Times New Roman";
 }
 nav{
   background-color: aliceblue;
