@@ -36,6 +36,9 @@ footer{
   vertical-align: middle;
   padding:1%;
 }
+h1{
+  text-align: center;
+}
 .textoSeccion{
   background-color: wheat;
   padding:1%;
