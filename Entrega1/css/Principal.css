@@ -1,25 +1,52 @@
 header{
-  background-color: red;
+  background-color: lavenderblush;
+  text-align: center;
+  text-transform: uppercase;
+  color: dimgrey;
+  padding: 1%;
+  font-weight: bold;
+  font-size: 3em;
 }
 nav{
-  background-color: blue;
+  background-color: aliceblue;
+  padding: 1%;
 }
 article{
-  background-color: green;
+  background-color: beige;
   padding: 0.5%;
   float: left;
-  margin: 0 1.5%;
+  width:74%;
 }
 section{
-  background-color: pink;
+  background-color: mistyrose;
   margin: 0.5%;
 }
 aside{
-  background-color: grey;
+  background-color: whitesmoke;
   float: right;
-  margin: 0 1.5%;
+  width:24%;
+  padding: 0.5%;
 }
 footer{
-  background-color: yellow;
+  background-color: honeydew;
   clear: both;
+  width:100%;
+  vertical-align: middle;
+  padding:1%;
+}
+.textoSeccion{
+  background-color: wheat;
+  padding:1%;
+  text-align: justify;
+}
+.textoAside{
+  background-color: lavender;
+  padding:0.5%;
+}
+.footerEl{
+  float:left;
+  margin: 0 auto;
+  width:33%;
+  text-align: center;
+  background-color: lightcyan;
 }
