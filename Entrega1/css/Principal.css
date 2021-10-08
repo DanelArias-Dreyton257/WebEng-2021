@@ -11,6 +11,7 @@ header{
 nav{
   background-color: aliceblue;
   padding: 1%;
+  vertical-align: middle;
 }
 article{
   background-color: beige;
@@ -50,4 +51,11 @@ footer{
   width:33%;
   text-align: center;
   background-color: lightcyan;
+}
+.navEl{
+  float:left;
+  margin: 0 auto;
+  width:50%;
+  text-align: center;
+  background-color: ivory;
 }
