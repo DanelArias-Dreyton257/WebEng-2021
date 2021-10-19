@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1000" height="1000" viewBox="0 0 500 500" xml:space="preserve">
+<desc>Created with Fabric.js 4.6.0</desc>
+<defs>
+</defs>
+<g transform="matrix(0.7 0 0 -1 270.37 259.25)" id="gbTeTst8hcCDaoGzkWX4y"  >
+<path style="stroke: rgb(0,0,0); stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  transform=" translate(0, 0)" d="M -98.75184 -98.75184 L 98.75183 -98.75184 L 98.75183 98.75183 L -98.75184 98.75183 z" stroke-linecap="round" />
+</g>
+<g transform="matrix(0.7 0 0 1 229.25 220.75)" id="iaSkX2ePgfOsLOs6cCFmC"  >
+<filter id="SVGID_0" y="-20%" height="140%" x="-20%" width="140%" >
+	<feGaussianBlur in="SourceAlpha" stdDeviation="0"></feGaussianBlur>
+	<feOffset dx="0" dy="0" result="oBlur" ></feOffset>
+	<feFlood flood-color="rgb(0,0,0)" flood-opacity="1"/>
+	<feComposite in2="oBlur" operator="in" />
+	<feMerge>
+		<feMergeNode></feMergeNode>
+		<feMergeNode in="SourceGraphic"></feMergeNode>
+	</feMerge>
+</filter>
+<path style="stroke: rgb(0,0,0); stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;filter: url(#SVGID_0);" vector-effect="non-scaling-stroke"  transform=" translate(0, 0)" d="M -98.75184 -98.75184 L 98.75183 -98.75184 L 98.75183 98.75183 L -98.75184 98.75183 z" stroke-linecap="round" />
+</g>
+<g transform="matrix(1 0 0 1 180 160)" id="jjQTrIC071UIXokepdTjO"  >
+<path style="stroke: rgb(0,0,0); stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  transform=" translate(0, 0)" d="M 0 0" stroke-linecap="round" />
+</g>
+<g transform="matrix(1 0 0 1 232.5 160)" id="WZmrS1zrhv11cAMgulhrD"  >
+<path style="stroke: rgb(0,0,0); stroke-width: 5; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  transform=" translate(0, 0)" d="M -50 0 L 50 0 z" stroke-linecap="round" />
+</g>
+<g transform="matrix(1 0 0 1 232.5 180)" id="ZY0cEtrlKoTtiooSExCHc"  >
+<path style="stroke: rgb(0,0,0); stroke-width: 5; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  transform=" translate(0, 0)" d="M -50 0 L 50 0 z" stroke-linecap="round" />
+</g>
+<g transform="matrix(1 0 0 1 232.5 200)" id="mtT0HCcBYiKhiUdPBFKWa"  >
+<path style="stroke: rgb(0,0,0); stroke-width: 5; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  transform=" translate(0, 0)" d="M -50 0 L 50 0 z" stroke-linecap="round" />
+</g>
+<g transform="matrix(1 0 0 1 232.5 240)" id="5V2uxSOW-D5tWO8yCXgoo"  >
+<path style="stroke: rgb(0,0,0); stroke-width: 5; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  transform=" translate(0, 0)" d="M -50 0 L 50 0 z" stroke-linecap="round" />
+</g>
+<g transform="matrix(1 0 0 1 232.5 220)" id="gt7SBGsUfr9kEF3ED55qs"  >
+<path style="stroke: rgb(0,0,0); stroke-width: 5; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  transform=" translate(0, 0)" d="M -50 0 L 50 0 z" stroke-linecap="round" />
+</g>
+<g transform="matrix(1 0 0 1 232.5 280)" id="GutHntDDjz4S8XWNRGEDY"  >
+<path style="stroke: rgb(0,0,0); stroke-width: 5; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  transform=" translate(0, 0)" d="M -50 0 L 50 0 z" stroke-linecap="round" />
+</g>
+<g transform="matrix(1 0 0 1 232.5 260)" id="srBkiNIy8Y2KqyBlI9qc_"  >
+<path style="stroke: rgb(0,0,0); stroke-width: 5; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  transform=" translate(0, 0)" d="M -50 0 L 50 0 z" stroke-linecap="round" />
+</g>
+</svg>
