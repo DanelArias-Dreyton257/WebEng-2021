@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1000" height="1000" viewBox="0 0 500 500" xml:space="preserve">
+<desc>Created with Fabric.js 4.6.0</desc>
+<defs>
+</defs>
+<g transform="matrix(0.5 0 0 1 240 251.01)" id="FVBHLRA85fohTcv3kOyzu"  >
+<path style="stroke: rgb(0,0,0); stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(83,80,80); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  transform=" translate(0, 0)" d="M -19.4332 -19.4332 L 19.433190000000003 -19.4332 L 19.433190000000003 19.433190000000003 L -19.4332 19.433190000000003 z" stroke-linecap="round" />
+</g>
+<g transform="matrix(1 0 0 0.62 240.28 190.2)" id="QYhqcYSojTO6QnwlqjiTC"  >
+<path style="stroke: rgb(0,0,0); stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(140,136,136); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  transform=" translate(0, 0)" d="M -79.1498 -79.1498 L 79.1498 -79.1498 L 79.1498 79.1498 L -79.1498 79.1498 z" stroke-linecap="round" />
+</g>
+<g transform="matrix(2.3 0 0 1.16 240 190.43)" id="sN9nJNsjjJCYAhLvnIOGk"  >
+<path style="stroke: rgb(0,0,0); stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  transform=" translate(0, 0)" d="M -29.95952 -29.95952 L 29.959509999999998 -29.95952 L 29.959509999999998 29.959509999999998 L -29.95952 29.959509999999998 z" stroke-linecap="round" />
+</g>
+<g transform="matrix(0.95 0 0 0.95 246.5 189)" style="" id="7J0Jhukr1g9bdQMCWHUIG"  >
+		<text xml:space="preserve" font-family="Open Sans" font-size="20" font-style="normal" font-weight="normal" line-height="1.16" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(53,237,53); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-53.64" y="6.28" >if (b!=0) { }</tspan></text>
+</g>
+</svg>
