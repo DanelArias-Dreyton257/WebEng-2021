@@ -16,7 +16,7 @@ nav{
 article{
   background-color: beige;
   padding: 0.5%;
-  float: left;
+  float: right;
   width:84%;
 }
 section{
@@ -25,7 +25,7 @@ section{
 }
 aside{
   background-color: whitesmoke;
-  float: right;
+  float: left;
   width:14%;
   padding: 0.5%;
 }
