@@ -6,3 +6,25 @@
   text-align: center;
   width:100%;
 }
+.formulario{
+  background-color: plum;
+  padding: 2%;
+  border-radius: 3em;
+  border: 2px solid SeaShell;
+}
+#botonEnviar{
+  background-color: lightcyan;
+  border: none;
+  color: black;
+  padding: 1% 2%;
+  margin: 1%;
+}
+#botonEnviar:hover{
+  background-color: grey;
+  border: 2px solid black;
+  color: white;
+}
+article{
+  width:auto !important;
+  float:none !important;
+}
