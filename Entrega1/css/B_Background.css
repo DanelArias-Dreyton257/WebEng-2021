@@ -1,4 +1,9 @@
-#imgPersonal{
-  border: 3px solid blue;
-  width:50%;
+.preSeccionImg{
+  height:35em;
+  border: 5px dashed DarkGoldenRod;
+}
+.divImgPreSeccion{
+  margin-top: 5%;
+  text-align: center;
+  width:100%;
 }

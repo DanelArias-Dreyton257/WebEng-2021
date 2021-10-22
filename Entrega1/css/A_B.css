@@ -12,6 +12,7 @@ nav{
   background-color: aliceblue;
   padding: 1%;
   vertical-align: middle;
+  clear:both;
 }
 article{
   background-color: beige;
@@ -22,6 +23,7 @@ article{
 section{
   background-color: mistyrose;
   margin: 0.5%;
+  border: 1px solid black;
 }
 aside{
   background-color: whitesmoke;
@@ -65,6 +67,7 @@ h1{
   width:33%;
   text-align: center;
   background-color: ivory;
+  padding: 1px;
 }
 .navIcon{
   vertical-align: center;
@@ -72,8 +75,10 @@ h1{
   width:33%;
   margin: -10%;
 }
-.navIcon:hover{
-  width:40%;
+.navEl:hover{
+  background-color: wheat;
+  border: 1px solid black;
+  padding: 0px;
 }
 a:hover{
   color: dimgrey;
