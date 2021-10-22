@@ -67,7 +67,14 @@ h1{
   background-color: ivory;
 }
 .navIcon{
+  vertical-align: center;
   align-items: center;
   width:33%;
   margin: -10%;
+}
+.navIcon:hover{
+  width:40%;
+}
+a:hover{
+  color: dimgrey;
 }
