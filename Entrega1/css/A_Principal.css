@@ -1,29 +1,29 @@
-.principalImg{
-  width:25%;
-  border: 5px dashed DarkGoldenRod;
-}
-.divImgPrincipal{
+#divImgPrincipal{/*Contenedor de la imagen principal y unica del documento*/
   text-align: center;
   width:100%;
 }
-.formulario{
+#principalImg{/*Estilo de la imagen principal y unica del documento*/
+  width:25%;
+  border: 5px dashed DarkGoldenRod;
+}
+#formulario{/*Estilo del formulario*/
   background-color: Thistle;
   padding: 2%;
   border-radius: 3em;
   border: 2px solid SeaShell;
 }
-#botonEnviar{
+#botonEnviar{/*Estilo del boton de submit*/
   background-color: lightcyan;
   border: none;
   color: black;
   padding: 1% 2%;
   margin: 1%;
 }
-#botonEnviar:hover{
+#botonEnviar:hover{/*La pseudoclase le da mas dinamismo al boton*/
   background-color: grey;
   border: 2px solid black;
   color: white;
 }
-section{
+section{ /*Resalta las secciones*/
   border: 1px solid black;
 }

@@ -2,40 +2,46 @@
 <head>
   <meta charset="utf-8">
   <title>Conoce a Danel Arias - Pag. Principal</title>
-  <link rel="icon" href="..\img\Info.svg">
-  <link rel="stylesheet" href="..\css\A_Principal.css">
-  <link rel="stylesheet" href="..\css\A_B.css">
+  <link rel="icon" href="../img/Info.svg">
+  <link rel="stylesheet" href="../css/A_Principal.css">
+  <link rel="stylesheet" href="../css/A_B.css">
 </head>
 <body>
 
-  <!--IGUAL-->
+  <!--IGUAL en todos los .html // header y nav-->
   <header>
     <h1>Conoce a Danel Arias</h1>
   </header>
 
   <nav>
     <div class="navEl">
-      <a href="A_Principal.html"><img class="navIcon" src="..\img\Home.svg" alt="Home logo"></a>
+      <a href="A_Principal.html"><img class="navIcon" src="../img/Home.svg" alt="Home logo"></a>
     </div>
     <div class="navEl">
-      <a href="B_Background.html"><img class="navIcon" src="..\img\Photo.svg" alt="Code logo"></a>
+      <a href="B_Background.html"><img class="navIcon" src="../img/Photo.svg" alt="Code logo"></a>
     </div>
     <div class="navEl">
-      <a href="B_Conocimientos.html"><img class="navIcon" src="..\img\Conocimiento.svg" alt="Code logo"></a>
+      <a href="B_Conocimientos.html"><img class="navIcon" src="../img/Conocimiento.svg" alt="Code logo"></a>
     </div>
     <div class="navEl">
-      <a href="B_Proyectos.html"><img class="navIcon" src="..\img\Proyectos.svg" alt="Code logo"></a>
+      <a href="B_Proyectos.html"><img class="navIcon" src="../img/Proyectos.svg" alt="Code logo"></a>
     </div>
   </nav>
-  <!--IGUAL-->
+  <!--IGUAL en todos los .html // header y nav-->
 
+
+  <!--Comienza el main con el article-->
   <main>
     <article>
-      <h1>Página principal</h1>
+      <h1>Página principal</h1><!--Título de la página-->
+
+      <!--Primera sección-->
       <section>
+
         <h3>¿Quién es Danel Arias?</h3>
-        <div class="divImgPrincipal">
-          <img class="principalImg" src="..\img\EnTraje.jpeg" alt="Foto de Danel Arias en traje">
+
+        <div id="divImgPrincipal">
+          <img id="principalImg" src="../img/EnTraje.jpeg" alt="Foto de Danel Arias en traje">
         </div>
         <div class="textoSeccion">
           <p>Danel es un joven estudiante universitario de 20 años nacido en Vitoria. Amante del baloncesto, de los ordenadores y su gente. Al menos es como me defino usualmente si me lo piden. Soy una persona trabajadoray con grandes aspiraciones de futuro en todo lo que me propongo. También habría quien podría definirme como persona de diversos gustos y opiniones. Soy una persona que no se conforma con los estereotipos.</p>
@@ -45,65 +51,88 @@
 
       <hr>
 
+      <!--Segunda sección-->
       <section>
+
         <h3>¿Qué puedo encontrar en esta página?</h3>
+
         <div class="textoSeccion">
         <p>En esta página encontraras información sobre mi persona. En la barra de navegación superior tienes varios iconos que te llevarán a diferentes apartados de la página con diferente información sobre mí. En el apartado de Conocimientos tendrás un resumen de mi expediente y logros académicos. En el apartado de BAckground podrás conocer un poco más sobre mi historia y conocerme un poco más como persona. Por último en el apartado de proyectos podrás observar repositorios, publicaciones etc. Además en muchas de las páginas tendrás una barra al lado con un índice de todo el contenido de la página para que no tengas ningún problema al navegar por esta.</p>
         </div>
+
       </section>
 
       <hr>
 
+      <!--Tercera sección-->
       <section>
         <h3>¿Quieres saber más? Ponte en contacto conmigo</h3>
+
         <div class="textoSeccion">
           <p>Rellena este formulario con lo que necesites y así informarme de forma sencilla y rápida.</p>
-          <form class="formulario">
+          <!--Esta seccion contiene un formulario separado por fieldsets-->
+          <form id="formulario">
+            <!--Primer Fieldset-->
             <fieldset>
               <legend>Información de contacto</legend>
-              Tu Nombre y apellidos: <input name="nombre" type="text" maxlenght="30"><br>
-              Tu correo de contacto: <input name="email" type="email" placeholder="correo@ejemplo.com" maxlenght="30"><br>
-
+              Tu Nombre y apellidos: <input name="nombre" type="text" maxlength=30><br>
+              Tu correo de contacto: <input name="email" type="email" placeholder="correo@ejemplo.com" maxlength=30><br>
             </fieldset>
+
             <br>
+            <!--Segundo Fieldset-->
             <fieldset>
               <legend>Contenido del mensaje</legend>
               Introduce el contenido de tu mensaje <em>(max. 200 caracteres)</em>:<br>
-              <textarea name="textarea" maxlength="200" rows="10"cols="100" placeholder="Tu mensaje..."></textarea>
+
+              <textarea name="textarea" maxlength="200" rows="10" cols="100" placeholder="Tu mensaje..."></textarea>
               <br>
+
               <input type="checkbox" name="urgente" value="Urgente"> Selecciona esta casilla si es <b>urgente</b> <br>
               <input type="checkbox" name="importante" value="Importante"> Selecciona esta casilla si es <b>importante</b><br>
+
               <br>
+
               <b>Selecciona el carácter de tu mensaje:</b><br>
               <select id="caracterMsg" name="caracterMsg">
+
                 <optgroup label="Empresarial">
                   <option selected>Oferta de trabajo</option>
                   <option>Contacto rutinario</option>
                   <option>Propuesta de reunión</option>
                 </optgroup>
+
                 <optgroup label="Personal">
                   <option>Contacto directo personal</option>
                   <option>Reunión personal</option>
                 </optgroup>
+
                 <optgroup label="Otro">
                   <option>Problemas de la página</option>
                   <option>Otro</option>
                 </optgroup>
               </select>
             </fieldset>
+
             <br>
+
+            <!--Tercer Fieldset-->
             <fieldset>
               <legend><b>SOLO</b> en caso de solicitar una reunión</legend>
               Selecciona dia y hora para una reunión:<br>
-              <input type="datetime-local" name="" value="2021-10-23T08:00" min="2021-10-22T00:00">
+              <input type="datetime-local" name="fecha" value="2021-10-23T08:00" min="2021-10-22T00:00">
               <br>
               ¿Qué formato de reunión?<br>
               <input type="radio" name="tiporeunion" value="">Presencial
               <input type="radio" name="tiporeunion" value="">On-line
             </fieldset>
+
             <br>
+
+            <!--Apartado boton de envio-->
             <b>¡Asegurate de que todo esté bien antes de enviar!</b><br>
             <input id="botonEnviar" type="submit" value="Enviar">
+
           </form>
         </div>
       </section>
@@ -112,7 +141,7 @@
 
   </main>
 
-  <!--IGUAL-->
+  <!--IGUAL en todos los .html //footer-->
   <footer>
     <div id="footerTit">
       Información de contacto
@@ -130,6 +159,6 @@
       Cuenta de Github: <br> <a href="https://github.com/DanelArias-Dreyton257/">Link</a>
     </div>
   </footer>
-  <!--IGUAL-->
+  <!--IGUAL en todos los .html //footer-->
 
 </body>

@@ -1,5 +1,5 @@
 /*Estilo para sobremesa*/
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 768px){/*El aside se pone a un lado y article ocupa la mayor parte de la pantalla*/
   article{
     float: right;
     width:84%;
@@ -8,7 +8,7 @@
     float: left;
     width:14%;
   }
-  .bloqueSeccion{
+  .bloqueSeccion{ /*Los bloques "no" importantes ocupan la mitad de la pantalla, asi caben 2 por cada "fila"*/
     float:left;
     margin: 0 auto;
     width:49%;
@@ -16,7 +16,7 @@
     background-color: lightcyan;
     border: 0.25em solid black;
   }
-  .bloqueSeccionImp{
+  .bloqueSeccionImp{ /*Los bloques importantes ocupan todo el ancho de la pantalla*/
     float:left;
     margin: 0 auto;
     width:100%;
@@ -26,7 +26,7 @@
   }
 }
 /* Estilos para movil */
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px){/*El aside se queda arriba y no ocupa ancho de la pantalla*/
   article{
     float: none;
     width:auto;
@@ -35,6 +35,9 @@
     float: none;
     width:auto;
   }
+
+/*En la version de movil todos los bloques ocupan el 100% del ancho de la panatalla*/
+
   .bloqueSeccion{
     float:left;
     margin: 0 auto;
@@ -52,6 +55,8 @@
     border: 0.25em solid black;
   }
 }
+
+/*Estilo de los iconos que aparecen en cada seccion*/
 .proyIcon{
   width:50%;
   margin: -15%;

@@ -1,3 +1,11 @@
+/*
+Este CSS contiene los estilos que son iguales en todo las paginas.
+Es una forma de esquivar la repetición y reducir la cantidad de fallos de cohesión entre páginas.
+De esta forma un cambio se afecta a todas las páginas.
+Eso no significa que cada página no tenga .css diferentes, solo que lo común se encuentra en este archivo .css
+*/
+
+/*Estilo para el header, La idea es poner el titulo en grande*/
 header{
   background-color: lavenderblush;
   text-align: center;
@@ -6,39 +14,57 @@ header{
   padding: 1%;
   font-weight: bold;
   font-size: 1.2em;
+}
+/*Defino el tipo de letra que se aplicará en todo el body*/
+body{
   font-family: georgia, "Times New Roman";
 }
+/*Estilo de la barra de navegación superior*/
 nav{
   background-color: aliceblue;
   padding: 1%;
   vertical-align: middle;
   clear:both;
 }
+/*Estilo del articulo, la parte principal de la pagina*/
 article{
   background-color: beige;
   padding: 0.5%;
 }
+/*Estilo de las secciones dentro del articulo*/
 section{
   background-color: mistyrose;
   margin: 0.5%;
   padding: 0 1% 0 1%;
 }
+/*Estilo de la barra "a un lado" de la pagina html*/
 aside{
   background-color: whitesmoke;
   padding: 0.5%;
 }
+/*Estilo de pie de pagina*/
 footer{
   background-color: honeydew;
   clear: both;
   width:100%;
   vertical-align: middle;
 }
+
+/*Estilos de los titulos*/
 h1{
   text-align: center;
 }
 h3{
   text-align: center;
 }
+/*Estilo de la barra de separación pra que sea más significativa*/
+hr{
+  margin: 1% 0 1% 0;
+  border: 2px solid dimgrey;
+  border-radius: 0.5em;
+}
+
+/*Estilos de los contenedores div con texto*/
 .textoSeccion{
   background-color: wheat;
   padding:2.5%;
@@ -48,43 +74,42 @@ h3{
   background-color: lavender;
   padding:0.5%;
 }
-#footerTit{
+
+/*Estilos para el footer*/
+
+#footerTit{/*Titulo del footer*/
   text-align: center;
   font-weight: bold;
   padding-bottom: 0.5%;
 }
-.footerEl{
+.footerEl{/*Div contenedor, elemento del footer*/
   float:left;
   margin: 0 auto;
-  width:25%;
+  width:25%; /*Como habrá 4 se distribuyen equitativamente*/
   text-align: center;
   background-color: lightcyan;
 }
-.navEl{
+
+.navEl{/*Div contenedor, elemento de la barra de navegación*/
   float:left;
   margin: 0 auto;
-  width:24.5%;
+  width:24.5%;  /*Como habrá 4 se distribuyen equitativamente. Un poco menos de la división perfecta por los bordes y padding*/
   text-align: center;
   background-color: ivory;
   padding: 1px;
 }
-.navIcon{
+.navIcon{/*Imagen de icono que aparece en la barra de navegacion*/
   vertical-align: center;
   align-items: center;
   width:40%;
   margin: -10%;
 }
-.navEl:hover{
+.navEl:hover{/*Uso de la pseudoclase para dar sensación de boton*/
   background-color: wheat;
   border: 1px solid black;
   padding: 0px;
 }
-hr{
-  margin: 1% 0 1% 0;
-  border: 2px solid dimgrey;
-  border-radius: 0.5em;
-}
-a:hover{
+a:hover{/*Uso de la pseudoclase para dar sensación de boton*/
   font-weight: bold;
   color: dimgrey;
 }

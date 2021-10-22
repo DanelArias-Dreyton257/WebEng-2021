@@ -1,5 +1,5 @@
 /*Estilo para sobremesa*/
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 768px){/*El aside se pone a un lado y article ocupa la mayor parte de la pantalla*/
   article{
     float: right;
     width:84%;
@@ -10,7 +10,7 @@
   }
 }
 /* Estilos para movil */
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px){/*El aside se queda arriba y no ocupa ancho de la pantalla*/
   article{
     float: none;
     width:auto;
@@ -20,12 +20,12 @@
     width:auto;
   }
 }
-table,th,td{
+table,th,td{ /*Resalta las tablas dandole un borde y una mejor distribución*/
   margin: 1%;
   text-align: center;
   border: 2px solid black;
   width:40%;
 }
-section{
+section{ /*Resalta las secciones*/
   border: 1px solid black;
 }
