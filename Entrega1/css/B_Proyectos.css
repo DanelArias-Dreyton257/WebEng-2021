@@ -1,3 +1,11 @@
+article{
+  float: right;
+  width:84%;
+}
+aside{
+  float: left;
+  width:14%;
+}
 .bloqueSeccion{
   float:left;
   margin: 0 auto;

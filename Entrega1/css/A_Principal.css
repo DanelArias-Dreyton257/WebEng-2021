@@ -1,5 +1,5 @@
 .principalImg{
-  width:40%;
+  width:25%;
   border: 5px dashed DarkGoldenRod;
 }
 .divImgPrincipal{
@@ -23,8 +23,4 @@
   background-color: grey;
   border: 2px solid black;
   color: white;
-}
-article{
-  width:auto !important;
-  float:none !important;
 }

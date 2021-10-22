@@ -17,8 +17,6 @@ nav{
 article{
   background-color: beige;
   padding: 0.5%;
-  float: right;
-  width:84%;
 }
 section{
   background-color: mistyrose;
@@ -28,8 +26,6 @@ section{
 }
 aside{
   background-color: whitesmoke;
-  float: left;
-  width:14%;
   padding: 0.5%;
 }
 footer{
@@ -39,6 +35,9 @@ footer{
   vertical-align: middle;
 }
 h1{
+  text-align: center;
+}
+h3{
   text-align: center;
 }
 .textoSeccion{
@@ -65,7 +64,7 @@ h1{
 .navEl{
   float:left;
   margin: 0 auto;
-  width:33%;
+  width:24.5%;
   text-align: center;
   background-color: ivory;
   padding: 1px;
@@ -73,13 +72,18 @@ h1{
 .navIcon{
   vertical-align: center;
   align-items: center;
-  width:33%;
+  width:40%;
   margin: -10%;
 }
 .navEl:hover{
   background-color: wheat;
   border: 1px solid black;
   padding: 0px;
+}
+hr{
+  margin: 1% 0 1% 0;
+  border: 2px solid dimgrey;
+  border-radius: 0.5em;
 }
 a:hover{
   font-weight: bold;

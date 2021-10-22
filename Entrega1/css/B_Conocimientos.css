@@ -1,1 +1,8 @@
-
+article{
+  float: right;
+  width:84%;
+}
+aside{
+  float: left;
+  width:14%;
+}

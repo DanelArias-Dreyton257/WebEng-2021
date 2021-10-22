@@ -1,9 +1,17 @@
+article{
+  float: right;
+  width:84%;
+}
+aside{
+  float: left;
+  width:14%;
+}
 .preSeccionImg{
   height:35em;
   border: 5px dashed DarkGoldenRod;
 }
 .divImgPreSeccion{
-  margin-top: 5%;
+  margin: 2% 0 2% 0;
   text-align: center;
   width:100%;
 }
