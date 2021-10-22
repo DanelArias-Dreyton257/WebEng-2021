@@ -1,14 +1,31 @@
-article{
-  float: right;
-  width:84%;
+/*Estilo para sobremesa*/
+@media only screen and (min-width: 768px){
+  article{
+    float: right;
+    width:84%;
+  }
+  aside{
+    float: left;
+    width:14%;
+  }
 }
-aside{
-  float: left;
-  width:14%;
+/* Estilos para movil */
+@media only screen and (max-width: 768px){
+  article{
+    float: none;
+    width:auto;
+  }
+  aside{
+    float: none;
+    width:auto;
+  }
 }
 table,th,td{
   margin: 1%;
   text-align: center;
   border: 2px solid black;
   width:40%;
+}
+section{
+  border: 1px solid black;
 }

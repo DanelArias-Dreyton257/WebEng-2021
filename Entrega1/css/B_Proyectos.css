@@ -1,31 +1,58 @@
-article{
-  float: right;
-  width:84%;
+/*Estilo para sobremesa*/
+@media only screen and (min-width: 768px){
+  article{
+    float: right;
+    width:84%;
+  }
+  aside{
+    float: left;
+    width:14%;
+  }
+  .bloqueSeccion{
+    float:left;
+    margin: 0 auto;
+    width:49%;
+    text-align: center;
+    background-color: lightcyan;
+    border: 0.25em solid black;
+  }
+  .bloqueSeccionImp{
+    float:left;
+    margin: 0 auto;
+    width:100%;
+    text-align: center;
+    background-color: lightcyan;
+    border: 0.25em solid black;
+  }
 }
-aside{
-  float: left;
-  width:14%;
-}
-.bloqueSeccion{
-  float:left;
-  margin: 0 auto;
-  width:49%;
-  text-align: center;
-  background-color: lightcyan;
-  border: 0.25em solid black;
-}
-.bloqueSeccionImp{
-  float:left;
-  margin: 0 auto;
-  width:100%;
-  text-align: center;
-  background-color: lightcyan;
-  border: 0.25em solid black;
+/* Estilos para movil */
+@media only screen and (max-width: 768px){
+  article{
+    float: none;
+    width:auto;
+  }
+  aside{
+    float: none;
+    width:auto;
+  }
+  .bloqueSeccion{
+    float:left;
+    margin: 0 auto;
+    width:100%;
+    text-align: center;
+    background-color: lightcyan;
+    border: 0.25em solid black;
+  }
+  .bloqueSeccionImp{
+    float:left;
+    margin: 0 auto;
+    width:100%;
+    text-align: center;
+    background-color: lightcyan;
+    border: 0.25em solid black;
+  }
 }
 .proyIcon{
   width:50%;
   margin: -15%;
-}
-section{
-  border: 0px !important;
 }

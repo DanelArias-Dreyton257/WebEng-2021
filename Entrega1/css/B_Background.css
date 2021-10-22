@@ -1,10 +1,24 @@
-article{
-  float: right;
-  width:84%;
+/* Estilos para sobremesa */
+@media only screen and (min-width: 768px){
+  article{
+    float: right;
+    width:84%;
+  }
+  aside{
+    float: left;
+    width:14%;
+  }
 }
-aside{
-  float: left;
-  width:14%;
+/* Estilos para movil */
+@media only screen and (max-width: 768px){
+  article{
+    float: none;
+    width:auto;
+  }
+  aside{
+    float: none;
+    width:auto;
+  }
 }
 .preSeccionImg{
   height:35em;
@@ -14,4 +28,7 @@ aside{
   margin: 2% 0 2% 0;
   text-align: center;
   width:100%;
+}
+section{
+  border: 1px solid black;
 }
