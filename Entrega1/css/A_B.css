@@ -81,5 +81,6 @@ h1{
   padding: 0px;
 }
 a:hover{
+  font-weight: bold;
   color: dimgrey;
 }
