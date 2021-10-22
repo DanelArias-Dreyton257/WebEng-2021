@@ -6,3 +6,9 @@ aside{
   float: left;
   width:14%;
 }
+table,th,td{
+  margin: 1%;
+  text-align: center;
+  border: 2px solid black;
+  width:40%;
+}
