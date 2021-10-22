@@ -75,25 +75,25 @@
             <!--Primer Fieldset-->
             <fieldset>
               <legend>Información de contacto</legend>
-              Tu Nombre y apellidos: <input name="nombre" type="text" maxlength=30><br>
-              Tu correo de contacto: <input name="email" type="email" placeholder="correo@ejemplo.com" maxlength=30><br>
+              <label for="nombre">Tu Nombre y apellidos:</label> <input id="nombre" name="nombre" type="text" maxlength=30><br>
+              <label for="email">Tu correo de contacto:</label> <input id="email" name="email" type="email" placeholder="correo@ejemplo.com" maxlength=30><br>
             </fieldset>
 
             <br>
             <!--Segundo Fieldset-->
             <fieldset>
               <legend>Contenido del mensaje</legend>
-              Introduce el contenido de tu mensaje <em>(max. 200 caracteres)</em>:<br>
+              <label for="textoMail">Introduce el contenido de tu mensaje</label> <em>(max. 200 caracteres)</em>:<br>
 
-              <textarea name="textarea" maxlength="200" rows="10" cols="100" placeholder="Tu mensaje..."></textarea>
+              <textarea id="textoMail" name="textoMail" maxlength="200" rows="10" cols="100" placeholder="Tu mensaje..."></textarea>
               <br>
 
-              <input type="checkbox" name="urgente" value="Urgente"> Selecciona esta casilla si es <b>urgente</b> <br>
-              <input type="checkbox" name="importante" value="Importante"> Selecciona esta casilla si es <b>importante</b><br>
+              <input id="urgente" type="checkbox" name="urgente" value="Urgente"> <label for="urgente">Selecciona esta casilla si es <b>urgente</b></label> <br>
+              <input id="importante" type="checkbox" name="importante" value="Importante"> <label for="importante">Selecciona esta casilla si es <b>importante</b></label><br>
 
               <br>
 
-              <b>Selecciona el carácter de tu mensaje:</b><br>
+              <b><label for="caracterMsg">Selecciona el carácter de tu mensaje:</label></b><br>
               <select id="caracterMsg" name="caracterMsg">
 
                 <optgroup label="Empresarial">
@@ -119,12 +119,12 @@
             <!--Tercer Fieldset-->
             <fieldset>
               <legend><b>SOLO</b> en caso de solicitar una reunión</legend>
-              Selecciona dia y hora para una reunión:<br>
-              <input type="datetime-local" name="fecha" value="2021-10-23T08:00" min="2021-10-22T00:00">
+              <label for="fecha">Selecciona dia y hora para una reunión:</label><br>
+              <input id="fecha" type="datetime-local" name="fecha" value="2021-10-23T08:00" min="2021-10-22T00:00">
               <br>
               ¿Qué formato de reunión?<br>
-              <input type="radio" name="tiporeunion" value="">Presencial
-              <input type="radio" name="tiporeunion" value="">On-line
+              <input id="presencial" type="radio" name="tiporeunion" value="presencial"><label for="presencial">Presencial</label>
+              <input id="on-line" type="radio" name="tiporeunion" value="on-line"><label for="on-line">On-line</label>
             </fieldset>
 
             <br>
