@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width-device-width">
+  <title>Prueba</title>
+  <script type="text/javascript" src="js/vue.js"></script>
+</head>
+<body>
+
+  <div id="app4">
+    <h1>{{header}}</h1>
+
+    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. In mel saperet expetendis. Vitae urbanitas sadipscing nec ut, at vim quis lorem labitur. Exerci electram has et, vidit solet tincidunt quo ad, moderatius contentiones nec no. Nam et puto abhorreant scripserit, et cum inimicus accusamus. Wisi forensibus mnesarchum in cum. Per id impetus abhorreant, his no magna definiebas, inani rationibus in quo. Ut vidisse dolores est, ut quis nominavi mel. Ad pri quod apeirian concludaturque, id timeam iudicabit rationibus pri. Erant putant luptatum ex sit, error euismod ad qui, meliore voluptatum complectitur an vix. Clita persius sed et, vix vidit consulatu complectitur ex. Per nonummy postulant assentior an, mea audiam fabellas deserunt id.
+    </p>
+
+    <h2>{{counter}} Me gustas</h2>
+
+    <button v-on:click = "counter++">Me gusta</button>
+    <button v-on:click = "counter--">No me gusta</button>
+
+  </div>
+
+  <script type="text/javascript">
+  var app4 = new Vue({
+    el:"#app4",
+    data:{
+      header: "Jon Ander de la Puebla: sospechoso de crímenes por falsificación de nombre. Se cree que su nombre real es John Andrew da cidadae.",
+      counter: 0,
+    }
+  });
+  </script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width-device-width">
+    <title>Prueba</title>
+    <script type="text/javascript" src="js/vue.js"></script>
+  </head>
+  <body>
+
+    <div id="app2">
+      <span v-if="conditional == 0"> Test conditional v-if {{conditional}} </span>
+      <span v-else-if="conditional == 1"> Test conditional v-else-if {{conditional}} </span>
+      <span v-else> Test condicional v-else {{conditional}}</span>
+    </div>
+    <script type="text/javascript">
+    var app2 = new Vue({
+        el:"#app2",
+        data:{
+          conditional: 2
+        }
+    });
+    </script>
+  </body>
+</html>

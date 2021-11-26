@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width-device-width">
+    <title>Prueba</title>
+    <script type="text/javascript" src="js/vue.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <input v-model="mensaje">
+      <p>{{mensaje}}</p>
+    </div>
+    <script type="text/javascript">
+      var app = new Vue({
+          el:"#app",
+          data:{
+            mensaje: ""
+          }
+      });
+    </script>
+  </body>
+</html>

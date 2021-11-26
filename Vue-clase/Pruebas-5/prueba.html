@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width-device-width">
+  <title>Prueba</title>
+  <script type="text/javascript" src="js/vue.js"></script>
+</head>
+<body>
+
+  <div id="app5">
+    <h1>{{header}}</h1>
+    <ol>
+      <li v-for="l in elements">{{l}}</li>
+    </ol>
+    <input v-model="newEl" type="text" placeholder="Texto a añadir" @keyup.enter="saveElement" >
+
+    <button @click = "saveElement">Añadir</button>
+
+  </div>
+
+  <script type="text/javascript">
+  var app5 = new Vue({
+    el:"#app5",
+    data:{
+      header: "Asignaturas",
+      newEl: "",
+      elements:[
+        'Ing. Web',
+        'Software Design',
+        'Arquitectura de Computadores'
+      ]
+    },
+    methods:{
+        saveElement: function(event) {
+          if (this.newEl.length > 0){
+            this.elements.push(this.newEl);
+            if(event){
+              alert("Añadido a través de " + event.target.tagName)
+            }
+          }
+          else{
+            alert("Texto vacío")
+          }
+          this.newEl = "";
+        }
+
+    }
+  });
+  </script>
+</body>
+</html>
