@@ -23,12 +23,16 @@
     <ol>
       <li v-for="l in elements">{{l.label}}</li>
     </ol>
+    <p>Ahora al revés!</p>
+    <ol>
+      <li v-for="l in reversedElements">{{l.label}}</li>
+    </ol>
     <p v-if="elements.length === 0"> NO HAY UNA MIERDA </p>
 
     <div v-if="state === 'edit'" class="add-item-form">
 
-      <input v-model="newEl.label" type="text" placeholder="Texto a añadir" @keyup.enter="saveElement" >
-
+      <input v-model="newEl.label" type="text" :maxlength="newElMaxLength" placeholder="Texto a añadir" @keyup.enter="saveElement" >
+      <p>{{characterCount}} / {{newElMaxLength}}</p>
       <button @click="saveElement" :disabled ="newEl.label.length === 0">Añadir</button>
 
 
@@ -42,6 +46,7 @@
     data:{
       state: 'default',
       header: "Asignaturas",
+      newElMaxLength: 25,
       newEl: {
         label: "",
         esential : false
@@ -71,8 +76,16 @@
         this.state = newState;
       }
 
-    }
+    },
+    computed:{
+      characterCount(){
+        return this.newEl.label.length;
+      },
 
+      reversedElements(){
+        return this.elements.slice(0).reverse();
+      }
+    }
   });
   </script>
 </body>
