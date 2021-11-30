@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width-device-width">
+  <title>Prueba</title>
+  <script type="text/javascript" src="js/vue.js"></script>
+</head>
+<body>
+
+  <div id="app6">
+
+    <div class="header">
+      <h1>{{header.toLocaleUpperCase()}}</h1>
+
+      <button v-if = "state === 'default'" @click = "changeState('edit')">Activar edición</button>
+      <button v-else @click = "changeState('default')">Desactivar edición</button>
+
+    </div>
+
+    <ol>
+      <li v-for="l in elements">{{l}}</li>
+    </ol>
+    <p v-if="elements.length === 0"> NO HAY UNA MIERDA </p>
+
+    <div v-if="state === 'edit'" class="add-item-form">
+
+      <input v-model="newEl" type="text" placeholder="Texto a añadir" @keyup.enter="saveElement" >
+
+      <button @click = "saveElement">Añadir</button>
+
+    </div>
+
+  </div>
+
+  <script type="text/javascript">
+  var app6 = new Vue({
+    el:"#app6",
+    data:{
+      state: 'default',
+      header: "Asignaturas",
+      newEl: "",
+      elements:[]
+    },
+    methods:{
+      saveElement: function(event) {
+        if (this.newEl.length > 0){
+          this.elements.push(this.newEl);
+          if(event){
+            alert("Añadido a través de " + event.target.tagName)
+          }
+        }
+        else{
+          alert("Texto vacío")
+        }
+        this.newEl = "";
+      },
+
+      changeState: function(newState){
+        this.state = newState;
+      }
+
+    }
+  });
+  </script>
+</body>
+</html>
