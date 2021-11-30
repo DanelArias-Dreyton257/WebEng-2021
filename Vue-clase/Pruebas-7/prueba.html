@@ -27,9 +27,9 @@
 
     <div v-if="state === 'edit'" class="add-item-form">
 
-      <input v-model="newEl" type="text" placeholder="Texto a añadir" @keyup.enter="saveElement" >
+      <input v-model="newEl.label" type="text" placeholder="Texto a añadir" @keyup.enter="saveElement" >
 
-      <button @click="saveElement" :disabled ="newEl.length === 0">Añadir</button>
+      <button @click="saveElement" :disabled ="newEl.label.length === 0">Añadir</button>
 
 
     </div>
@@ -42,7 +42,10 @@
     data:{
       state: 'default',
       header: "Asignaturas",
-      newEl: "",
+      newEl: {
+        label: "",
+        esential : false
+      },
       elements:[
         {
           label: "Texto magico",
@@ -56,16 +59,12 @@
     },
     methods:{
       saveElement: function(event) {
-        if (this.newEl.length > 0){
-          this.elements.push(this.newEl);
-          if(event){
-            alert("Añadido a través de " + event.target.tagName)
-          }
+        this.elements.push({label: this.newEl.label,
+                            esential: this.newEl.esential});
+        if(event){
+          alert("Añadido a través de " + event.target.tagName)
         }
-        else{
-          alert("Texto vacío")
-        }
-        this.newEl = "";
+        this.newEl.label = "";
       },
 
       changeState: function(newState){
